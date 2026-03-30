@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#e6f7ff;
+}
+
+/* Header */
+header{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* Navigation bar */
+nav{
+    background:#00b4d8;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#023e8a;
+}
+
+/* Sections */
+section{
+    background:white;
+    margin:20px;
+    padding:25px;
+    border-radius:10px;
+    border-left:8px solid #90dbf4;
+}
+
+/* Headings */
+h2{
+    color:#0077b6;
+}
+
+/* Skills list */
+ul{
+    padding-left:20px;
+}
+
+/* Footer */
+footer{
+    background:#90dbf4;
+    text-align:center;
+    padding:15px;
+    font-weight:bold;
+}

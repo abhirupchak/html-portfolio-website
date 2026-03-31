@@ -1,58 +1,81 @@
 body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    background:#e6f7ff;
+font-family: Arial, sans-serif;
+margin:0;
+background:#fdf6f9;
 }
 
-/* Header */
+.container{
+width:80%;
+margin:auto;
+}
+
 header{
-    background:#0077b6;
-    color:white;
-    text-align:center;
-    padding:25px;
+background:#6a4c93;
+color:white;
+text-align:center;
+padding:30px;
+border-bottom:6px solid #f7a072;
 }
 
-/* Navigation bar */
 nav{
-    background:#00b4d8;
-    text-align:center;
-    padding:12px;
+background:#f7a072;
+text-align:center;
+padding:12px;
 }
 
 nav a{
-    color:white;
-    margin:15px;
-    text-decoration:none;
-    font-weight:bold;
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
 }
 
 nav a:hover{
-    color:#023e8a;
+color:#3a0ca3;
 }
 
-/* Sections */
 section{
-    background:white;
-    margin:20px;
-    padding:25px;
-    border-radius:10px;
-    border-left:8px solid #90dbf4;
+background:white;
+margin:25px 0;
+padding:25px;
+border-left:8px solid #6a4c93;
+border-radius:6px;
 }
 
-/* Headings */
 h2{
-    color:#0077b6;
+color:#6a4c93;
 }
 
-/* Skills list */
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+table, th, td{
+border:1px solid #ddd;
+}
+
+th{
+background:#6a4c93;
+color:white;
+padding:10px;
+}
+
+td{
+padding:10px;
+background:#fff8f0;
+}
+
 ul{
-    padding-left:20px;
+line-height:1.8;
 }
 
-/* Footer */
 footer{
-    background:#90dbf4;
-    text-align:center;
-    padding:15px;
-    font-weight:bold;
+background:#6a4c93;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
 }
